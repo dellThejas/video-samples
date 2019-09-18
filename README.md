@@ -76,7 +76,7 @@ In the command below, replace x.x.x.x with the IP address of a local network int
 cd
 git clone https://github.com/pravega/pravega
 cd pravega
-git checkout r0.5
+git checkout cd6bfe7
 ./gradlew docker
 cd docker/compose
 export HOST_IP=x.x.x.x
